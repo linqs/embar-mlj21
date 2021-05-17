@@ -1,0 +1,15 @@
+predicates:
+   Link/2: closed
+   LR/2: closed
+   HasCat/2: open
+
+observations:
+   HasCat: ../../data/3/cora/tr200/cora_label.obs.train.3.200.txt
+   Link: ../../data/3/cora/tr200/cora_graph.train.3.200.txt
+   LR: ../../data/3/cora/tr200/cora_lr.train.3.200.txt
+
+targets:
+   HasCat: ../../data/3/cora/tr200/cora_label.target.train.3.200.txt
+
+truth:
+   HasCat: ../../data/3/cora/tr200/cora_label.truth.train.3.200.txt

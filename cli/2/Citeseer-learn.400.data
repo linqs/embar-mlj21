@@ -1,0 +1,15 @@
+predicates:
+   Link/2: closed
+   LR/2: closed
+   HasCat/2: open
+
+observations:
+   HasCat: ../../data/2/citeseer/tr400/citeseer_label.obs.train.2.400.txt
+   Link: ../../data/2/citeseer/tr400/citeseer_graph.train.2.400.txt
+   LR: ../../data/2/citeseer/tr400/citeseer_lr.train.2.400.txt
+
+targets:
+   HasCat: ../../data/2/citeseer/tr400/citeseer_label.target.train.2.400.txt
+
+truth:
+   HasCat: ../../data/2/citeseer/tr400/citeseer_label.truth.train.2.400.txt

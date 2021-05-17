@@ -1,0 +1,15 @@
+predicates:
+   Link/2: closed
+   LR/2: closed
+   HasCat/2: open
+
+observations:
+   HasCat: ../../data/4/pubmed/tr500/pubmed_label.obs.test.4.500.txt
+   Link: ../../data/4/pubmed/tr500/pubmed_graph.test.4.500.txt
+   LR: ../../data/4/pubmed/tr500/pubmed_lr.test.4.500.txt
+
+targets:
+   HasCat: ../../data/4/pubmed/tr500/pubmed_label.target.test.4.500.txt
+
+truth:
+   HasCat: ../../data/4/pubmed/tr500/pubmed_label.truth.test.4.500.txt

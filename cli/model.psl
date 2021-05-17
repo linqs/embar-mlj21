@@ -1,0 +1,12 @@
+// Neighbor has cat => has cat
+75.0: HasCat(A, C) & Link(A, B) & (A != B) >> HasCat(B, C) ^2
+
+// Ensure that HasCat sums to 1
+99.0: 1.0 * HASCAT(A, +C) = 1.0 ^2
+
+// LR
+90.0: LR(A, C) >> HasCat(A, C) ^2
+//0.0: !LR(A, C) >> !HasCat(A, C) ^2
+
+// Prior
+0.0: !HasCat(A, N) ^2
