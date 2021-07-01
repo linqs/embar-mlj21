@@ -6,7 +6,3 @@
 
 // LR
 90.0: LR(A, C) >> HasCat(A, C) ^2
-//0.0: !LR(A, C) >> !HasCat(A, C) ^2
-
-// Prior
-0.0: !HasCat(A, N) ^2
