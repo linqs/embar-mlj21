@@ -2,7 +2,8 @@
 This repo contains the code and data for the paper "A Comparison of Statistical Relational Learning and
 Graph Neural Networks for Aggregate Graph Queries".
 
-To run the experiments, download the data from https://linqs-data.soe.ucsc.edu/public/embar-mlj21.zip.
+
+To run the experiments, create a directory called data and download the zip file from https://linqs-data.soe.ucsc.edu/public/embar-mlj21.zip.
 Unzip the files in the data directory
 
 Compile the PSL marginal code to generate the jar file.
